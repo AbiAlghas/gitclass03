@@ -4,14 +4,15 @@ public class Main {
     public static void main(String[] args) {
         // Press Alt+Enter with your caret at the highlighted text to see how
         // IntelliJ IDEA suggests fixing it.
-        boolean productAvailable=true;
+        boolean productAvailable = true;
 
-        if ( productAvailable ) {
+        if (productAvailable) {
             System.out.print("yes");
         } else {
-            System.out.print("no")
+            System.out.print("no");
+            System.out.println("the code is complete");
         }
 
-
     }
+
 }
